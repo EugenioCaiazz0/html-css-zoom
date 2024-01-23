@@ -12,20 +12,24 @@ header{
 
 body{
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header p{
+header button{
     color: white;
     display: inline-block;
-    border-radius: 5px ;
+    border-radius: 5px;
+    border: none;
     text-align: center;
     background-color: #4a4a4a;
-    font-size: x-small;
-    padding: 3px;
+    font-size: xx-small;
+    padding: 5px;
 }
 
 main{
     background-color: black;
+    height: calc(100vh - 85px);
+    overflow: hidden;
 }
 
 .container{
@@ -52,8 +56,10 @@ main{
 footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-height: 80px;
-    background-color: red;
+    height: 80px;
+    background-color: #222222;
 }
 
 footer ul{
@@ -65,8 +71,20 @@ footer ul{
     color: white;
     height: 100%;
     padding-right: 5px;
+    font-size: small;
  }
 
  footer ul .column{
     flex-direction: column;
+    align-items: center;
+ }
+
+.end-meeting{
+    background-color: #4a4a4a;
+    color: #f02d3f;
+    width: 120px;
+    height: 100%;
+    font-size: x-small;
+    font-weight: bolder;
+    border: none;
  }
