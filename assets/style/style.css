@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-}
-
 header{
     display: flex;
     justify-content: flex-end;
     max-height: 25px;
+}
+
+body{
+    background-color: black;
 }
 
 header p{
@@ -23,3 +23,50 @@ header p{
     font-size: x-small;
     padding: 3px;
 }
+
+main{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    max-width: 99%;
+}
+
+.video-group{
+    flex-wrap: wrap;
+    /*position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    max-width: 1800px;
+    justify-content: center;
+}
+
+.user-view{
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+    background-color: red;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+ footer ul li{
+    color: white;
+    height: 100%;
+    padding-right: 5px;
+ }
+
+ footer ul .column{
+    flex-direction: column;
+ }
